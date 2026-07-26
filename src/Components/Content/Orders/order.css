@@ -1,0 +1,35 @@
+.orderstyle {
+  width: 100%;
+  overflow-y: auto; /*   عشان السكرول يبقى هنا */
+  padding: 24px;
+  border-radius: 10px;
+}
+
+.tablestyle {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--card-bg);
+
+
+
+}
+
+.tablestyle th {
+  position: sticky; 
+  top: 0; 
+  z-index: 10; 
+  background-color: var(--card-bg); /* 4 */
+  padding: 16px 24px;
+  text-align: left;
+  color: var(--text-muted);
+}
+
+.tablestyle td {
+  padding: 16px 24px;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.1);
+}
+
+
+.orderstyle::-webkit-scrollbar {
+  display: none; 
+}

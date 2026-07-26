@@ -1,0 +1,33 @@
+.prostyle {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+  gap: 24px;
+  padding: 24px;
+  height: 100%;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px ,1fr ));
+  gap: 16px;
+  width: 100%;
+}
+
+.card {
+  height: 120px;
+  background-color: #070d0d;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  box-sizing: border-box;
+  gap: 1px;
+  margin-left: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.span {
+  color: #28e928;
+}

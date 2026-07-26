@@ -1,0 +1,33 @@
+.buttonstyle {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* زرار التعديل - بنفسجي */
+.buttonstyle.edit {
+  background-color: var(--primary-color, #970fec);
+  color: white;
+  margin-bottom: 16px; /* مسافه بينه وبين الحذف */
+}
+
+.buttonstyle.edit:hover {
+  background-color: #a855f7;
+  transform: translateY(-2px);
+}
+
+/* زرار الحذف - احمر */
+.buttonstyle.delete {
+  background-color: rgba(239, 68, 68, 0.15);
+  color: #ef4444;
+  border: 1px solid rgba(239, 68, 68, 0.4);
+}
+
+.buttonstyle.delete:hover {
+  background-color: #ef4444;
+  color: white;
+}

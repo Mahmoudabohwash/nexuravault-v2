@@ -1,0 +1,33 @@
+
+:root {
+    --bg-color: #0f172a;
+    --card-bg: #1e293b;
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
+    --primary: #38bdf8;
+    --primary-hover: #7dd3fc;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    line-height: 1.6;
+}
+
+#app-style{
+    background-color:var(--bg-color);
+    width: 100%;
+    height: 100dvh;
+}
+
+body{
+    height: 100dvh;
+    margin: 0;
+    padding: 0;
+}

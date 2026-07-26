@@ -1,0 +1,11 @@
+ .layout{
+   display: grid;
+   grid-template-columns: 240px 1fr;
+   height: calc(100vh - 60px);
+   width: 100vw;
+   overflow: hidden;
+   box-sizing: border-box;
+   background-color:var(--bg-color);
+   color: var(--text-main);
+   border: 1px solid black;
+ }
